@@ -24,8 +24,8 @@ const initialUsers: MockUser[] = [
   },
   {
     id: 'user-2',
-    name: 'Admin User',
-    email: 'admin@killshop.com',
+    name: 'Chris Del',
+    email: 'chris@killshop.com',
     password: 'admin123',
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()

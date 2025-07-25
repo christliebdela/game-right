@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import AOS from 'aos';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useCart } from '@/context/CartContext';
 import { useAuth } from '@/context/AuthContext';
@@ -230,16 +230,16 @@ export default function ProductsPage() {
 
   // LOADING STATE SIMULATION
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
+  //useEffect(() => {
+   // AOS.init({
+    //  duration: 1000,
+   //   once: true,
+   // });
+   // const timer = setTimeout(() => {
+   //   setIsLoading(false);
+ //   }, 1000);
+  //  return () => clearTimeout(timer);
+ // }, []);
 
   // FILTER PRODUCTS BASED ON SEARCH AND CATEGORY
 

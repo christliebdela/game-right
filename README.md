@@ -1,4 +1,4 @@
-# game-right
+# Game-Right
 
 A fun web-based game project created for a school mini hackathon, built with Next.js. This project was made as a playful experiment to showcase creativity and teamwork during a sprint event.
 
